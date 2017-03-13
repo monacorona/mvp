@@ -17,28 +17,28 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+  > trippy is a travel map-app where users can pin places they've been, places they'd love to see, and places they miss and can't wait to see again!
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  > an app for wanderlusters & anyone who longs for adventure and can't wait to escape the motonony of life.
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > trippy is an app that allows the user access to a map where they can pin their current location, places they've seen and places they'd like to visit. it also provides the user ability to enter in travel dates---whether as a journaled past past, or a future date indicating future plans to travel. it even allows a wanderluster to note everything they would like to do, see, or eat at their desired destination.
 
 ## Problem ##
-  > Describe the problem your product solves.
+  > there are many of us who would love to travel, but don't necessarily note when we can fit that into our future and fit in all the places we want to see. despite all these desires for travel and adventure, life tends to suck us back in and we forget all about our plans to take a break and see the world.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > trippy provides a trippy (pun may be intended) solution to the aforementioned problem by allowing users to keep track of all their future plans for travelling, and also allows you to keep track of all the places you've seen in the past. it helps you plan your next trip, and reminds you of what you loved during your last trip.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > 'need a break? get lost. (on an adventure)'
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > all it takes is a computer and access to the internet! just go onto our website and immediately start using the app! (future plans for user authentication in progress)
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > "trippy is better than any travel journal i could buy. it keeps track of all my trips, past and planned."
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  > need a vacation? just head to our page and start using trippy now!
