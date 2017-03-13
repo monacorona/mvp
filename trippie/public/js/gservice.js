@@ -63,6 +63,7 @@ angular.module('gservice', [])
                     '<br><b>visited</b>: ' + user.visited +
                     '<br><b>detail</b>: ' + user.detail +
                     '<br><b>plans</b>: ' + user.plans +
+                    '<br><b>todo</b>: ' + user.todo +
                     '</p>';
 
                 // converts each of the JSON records into Google Maps Location format ([lat, lng]] format).
@@ -75,7 +76,8 @@ angular.module('gservice', [])
                     username: user.username,
                     detail: user.detail,
                     visited: user.visited,
-                    plans: user.plans
+                    plans: user.plans,
+                    todo: user.todo
             });
         }
         // location is now an array populated with records in Google Maps format

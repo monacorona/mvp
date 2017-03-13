@@ -8,6 +8,7 @@ var UserSchema = new Schema({
     detail: {type: String, required: true},
     visited: {type: Date, required: false},
     plans: {type: Date, required: false},
+    todo: {type: String, required: false},
     location: {type: [Number], required: true}, // [Long, Lat]
     created_at: {type: Date, default: Date.now},
     updated_at: {type: Date, default: Date.now}
@@ -23,8 +24,8 @@ UserSchema.pre('save', function(next){
     next();
 });
 
-// indexes this schema in 2dsphere format (critical for running proximity searches)
+// indexes this schema in 2dsphere format
 UserSchema.index({location: '2dsphere'});
 
-// exports the UserSchema for use elsewhere. sets the MongoDB collection to be used as: "map-user"
+// exports the UserSchema for use elsewhere. sets the mongoDB collection to be used as: "map-user"
 module.exports = mongoose.model('map-user', UserSchema);

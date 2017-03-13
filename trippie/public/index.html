@@ -26,8 +26,8 @@
     <!-- Google Maps API -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA66bNFow2ev1lKDvdcpIzmWUh7A8hibhU"></script>
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-       <script data-require="angular.js@1.4.0" data-semver="1.4.0" src="https://code.angularjs.org/1.4.0/angular.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script data-require="angular.js@1.4.0" data-semver="1.4.0" src="https://code.angularjs.org/1.4.0/angular.js"></script>
     <script data-require="angular-simple-logger@*" data-semver="0.0.2" src="https://rawgit.com/nmccready/angular-simple-logger/master/dist/angular-simple-logger.js"></script>
     <script data-require="angular-google-maps@*" data-semver="2.0.11" src="//rawgit.com/angular-ui/angular-google-maps/master/dist/angular-google-maps.min.js"></script>
     <!-- modernizr -->
@@ -68,7 +68,7 @@
                     <form name ="addForm" novalidate>
                         <!-- text boxes and other user inputs. note that ng-model binds the values to angular $scope -->
                         <div class="form-group">
-                            <label for="username">Username <span class="badge">give us all your info. GIVE US YOUR SOUL.</span></label>
+                            <label for="username">username <span class="badge">give us all your info. GIVE US YOUR SOUL.</span></label>
                             <input type="text" class="form-control" id="username" placeholder="name" ng-model="formData.username" required>
                         </div>
                         <label class="radio control-label">travel history</label>
@@ -91,7 +91,7 @@
                             </label>
                         </div>
                         <div class="form-group">
-                            <label for="when">When did you visit?</label>
+                            <label for="when">when did you visit?</label>
                             <input type="date" class="form-control" id="visited" placeholder="mm/dd/yyyy" ng-model="formData.visited">
                         </div>
                         <div class="form-group">
@@ -99,11 +99,15 @@
                             <input type="date" class="form-control" id="plans" placeholder="mm/dd/yyyy" ng-model="formData.plans">
                         </div>
                         <div class="form-group">
-                            <label for="latitude">Latitude</label>
+                            <label for="todo">bucket list:   <span class="badge">   just enter stuff you'd like to do or see...or eat</span></label>
+                            <input type="text" class="form-control" id="todo" placeholder="to do list" ng-model="formData.todo">
+                        </div>
+                        <div class="form-group">
+                            <label for="latitude">latitude</label>
                             <input type="text" class="form-control" id="latitude" value="39.500" ng-model="formData.latitude" readonly>
                         </div>
                         <div class="form-group">
-                            <label for="longitude">Longitude</label>
+                            <label for="longitude">longitude</label>
                             <input type="text" class="form-control" id="longitude" value="-98.350" ng-model="formData.longitude" readonly>
                         </div>
 

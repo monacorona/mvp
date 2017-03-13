@@ -2,7 +2,7 @@
 var addCtrl = angular.module('addCtrl', ['geolocation', 'gservice']);
 addCtrl.controller('addCtrl', function($scope, $http, $rootScope, geolocation, gservice){
 
-    // initializes Variables
+    // initializes variables
     // ----------------------------------------------------------------------------
     $scope.formData = {};
     var coords = {};
@@ -37,7 +37,6 @@ addCtrl.controller('addCtrl', function($scope, $http, $rootScope, geolocation, g
         $scope.$apply(function(){
             $scope.formData.latitude = parseFloat(gservice.clickLat).toFixed(3);
             $scope.formData.longitude = parseFloat(gservice.clickLong).toFixed(3);
-            // $scope.formData.htmlverified = "Nope (Thanks for spamming my map...)";
         });
     });
 
@@ -50,6 +49,7 @@ addCtrl.controller('addCtrl', function($scope, $http, $rootScope, geolocation, g
             detail: $scope.formData.detail,
             visited: $scope.formData.visited,
             plans: $scope.formData.plans,
+            todo: $scope.formData.todo,
             location: [$scope.formData.longitude, $scope.formData.latitude],
 
         };
@@ -61,6 +61,7 @@ addCtrl.controller('addCtrl', function($scope, $http, $rootScope, geolocation, g
                 // once complete, pls clear the form (except location)
                 $scope.formData.username = "";
                 $scope.formData.detail = "";
+                $scope.formData.todo = "";
                 $scope.formData.visited = "MM/dd/yyyy";
                 $scope.formData.plans = "MM/dd/yyyy";
 
